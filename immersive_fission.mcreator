@@ -23,6 +23,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thorium_ore"
+    },
+    {
+      "name": "RadiationParticle",
+      "type": "particle",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_particle"
     }
   ],
   "variable_elements": [],

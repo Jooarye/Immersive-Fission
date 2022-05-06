@@ -8,6 +8,8 @@ import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.common.ToolType;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.gen.feature.template.RuleTest;
 import net.minecraft.world.gen.feature.template.IRuleTestType;
@@ -29,6 +31,8 @@ import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
+import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.client.Minecraft;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -36,6 +40,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.immersive_fission.particle.RadiationParticleParticle;
 import net.immersive_fission.itemgroup.ImmersiveFissionTabItemGroup;
 import net.immersive_fission.ImmersiveFissionModElements;
 
@@ -84,6 +89,23 @@ public class UraniumOreBlock extends ImmersiveFissionModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@OnlyIn(Dist.CLIENT)
+		@Override
+		public void animateTick(BlockState blockstate, World world, BlockPos pos, Random random) {
+			super.animateTick(blockstate, world, pos, random);
+			PlayerEntity entity = Minecraft.getInstance().player;
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			if (true)
+				for (int l = 0; l < 3; ++l) {
+					double d0 = (x + 0.5) + (random.nextFloat() - 0.5) * 0.1D * 20;
+					double d1 = ((y + 0.7) + (random.nextFloat() - 0.5) * 0.1D) + 0.5;
+					double d2 = (z + 0.5) + (random.nextFloat() - 0.5) * 0.1D * 20;
+					world.addParticle(RadiationParticleParticle.particle, d0, d1, d2, 0, 0, 0);
+				}
 		}
 	}
 
