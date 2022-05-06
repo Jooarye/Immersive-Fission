@@ -7,7 +7,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.immersive_fission.block.UraniumOreBlock;
+import net.immersive_fission.item.ThoriumIngotItem;
 import net.immersive_fission.ImmersiveFissionModElements;
 
 @ImmersiveFissionModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class ImmersiveFissionTabItemGroup extends ImmersiveFissionModElements.Mo
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(UraniumOreBlock.block);
+				return new ItemStack(ThoriumIngotItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

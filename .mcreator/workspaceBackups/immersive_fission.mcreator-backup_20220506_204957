@@ -1,0 +1,118 @@
+{
+  "mod_elements": [
+    {
+      "name": "ImmersiveFissionTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immersive_fission_tab"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore"
+    },
+    {
+      "name": "ThoriumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore"
+    },
+    {
+      "name": "RadiationParticle",
+      "type": "particle",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_particle"
+    },
+    {
+      "name": "UraniumTag",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_tag"
+    },
+    {
+      "name": "ThoriumTag",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_tag"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot"
+    },
+    {
+      "name": "ThoriumIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot"
+    },
+    {
+      "name": "UraniumIngotTag",
+      "type": "tag",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_tag"
+    },
+    {
+      "name": "ThoriumIngotTag",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot_tag"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
+      "item.immersive_fission.uranium_ingot": "Uranium Ingot",
+      "block.immersive_fission.uranium_ore": "Uranium Ore",
+      "item.immersive_fission.thorium_ingot": "Thorium Ingot",
+      "block.immersive_fission.thorium_ore": "Thorium Ore"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "immersive_fission",
+    "modName": "Immersive Fission",
+    "version": "1.0.0",
+    "author": "jojo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.immersive_fission",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

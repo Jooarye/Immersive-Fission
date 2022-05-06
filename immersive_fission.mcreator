@@ -33,22 +33,62 @@
       "registry_name": "radiation_particle"
     },
     {
-      "name": "NucliarAge",
-      "type": "achievement",
+      "name": "UraniumTag",
+      "type": "tag",
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "nucliar_age"
+      "registry_name": "uranium_tag"
+    },
+    {
+      "name": "ThoriumTag",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_tag"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot"
+    },
+    {
+      "name": "ThoriumIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot"
+    },
+    {
+      "name": "UraniumIngotTag",
+      "type": "tag",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_tag"
+    },
+    {
+      "name": "ThoriumIngotTag",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot_tag"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.nucliar_age.title": "Nucliar Age",
       "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
-      "advancements.nucliar_age.descr": "Get your hands on some radioactive materiales",
+      "item.immersive_fission.uranium_ingot": "Uranium Ingot",
       "block.immersive_fission.uranium_ore": "Uranium Ore",
+      "item.immersive_fission.thorium_ingot": "Thorium Ingot",
       "block.immersive_fission.thorium_ore": "Thorium Ore"
     }
   },
