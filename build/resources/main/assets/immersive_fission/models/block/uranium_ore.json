@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "immersive_fission:blocks/uranium_ore",
-    "particle": "immersive_fission:blocks/uranium_ore"
-  }
-}
