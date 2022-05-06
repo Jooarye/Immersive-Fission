@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "immersive_fission:block/thorium_ore"
+    }
+  }
+}

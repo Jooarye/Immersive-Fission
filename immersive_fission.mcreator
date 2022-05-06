@@ -7,13 +7,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "immersive_fission_tab"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "itemGroup.tabimmersive_fission_tab": "Immersive Fission"
+      "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
+      "block.immersive_fission.uranium_ore": "Uranium Ore"
     }
   },
   "foldersRoot": {

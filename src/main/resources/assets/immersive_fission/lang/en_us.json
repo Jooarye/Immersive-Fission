@@ -1,4 +1,5 @@
 {
   "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
-  "block.immersive_fission.uranium_ore": "Uranium Ore"
+  "block.immersive_fission.uranium_ore": "Uranium Ore",
+  "block.immersive_fission.thorium_ore": "Thorium Ore"
 }
