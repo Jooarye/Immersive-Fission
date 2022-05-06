@@ -54,7 +54,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 10,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -102,8 +102,8 @@
       "value": "CUSTOM:RadiationParticle"
     },
     "particleSpawningShape": "Plane",
-    "particleSpawningRadious": 0.1,
-    "particleAmount": 3,
+    "particleSpawningRadious": 0.30000000000000004,
+    "particleAmount": 1,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

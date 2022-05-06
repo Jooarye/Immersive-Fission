@@ -100,10 +100,10 @@ public class UraniumOreBlock extends ImmersiveFissionModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 			if (true)
-				for (int l = 0; l < 3; ++l) {
-					double d0 = (x + 0.5) + (random.nextFloat() - 0.5) * 0.1D * 20;
-					double d1 = ((y + 0.7) + (random.nextFloat() - 0.5) * 0.1D) + 0.5;
-					double d2 = (z + 0.5) + (random.nextFloat() - 0.5) * 0.1D * 20;
+				for (int l = 0; l < 1; ++l) {
+					double d0 = (x + 0.5) + (random.nextFloat() - 0.5) * 0.3D * 20;
+					double d1 = ((y + 0.7) + (random.nextFloat() - 0.5) * 0.3D) + 0.5;
+					double d2 = (z + 0.5) + (random.nextFloat() - 0.5) * 0.3D * 20;
 					world.addParticle(RadiationParticleParticle.particle, d0, d1, d2, 0, 0, 0);
 				}
 		}

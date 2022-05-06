@@ -31,6 +31,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "radiation_particle"
+    },
+    {
+      "name": "UraniumTag",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_tag"
+    },
+    {
+      "name": "ThoriumTag",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_tag"
     }
   ],
   "variable_elements": [],
