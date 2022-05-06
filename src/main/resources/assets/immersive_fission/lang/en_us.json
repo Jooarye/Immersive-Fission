@@ -1,7 +1,11 @@
 {
+  "item.immersive_fission.hazmat_suit_armor_leggings": "HazmatSuit Leggings",
   "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
   "item.immersive_fission.uranium_ingot": "Uranium Ingot",
   "block.immersive_fission.uranium_ore": "Uranium Ore",
   "item.immersive_fission.thorium_ingot": "Thorium Ingot",
-  "block.immersive_fission.thorium_ore": "Thorium Ore"
+  "item.immersive_fission.hazmat_suit_armor_helmet": "HazmatSuit Helmet",
+  "item.immersive_fission.hazmat_suit_armor_chestplate": "HazmatSuit Chestplate",
+  "block.immersive_fission.thorium_ore": "Thorium Ore",
+  "item.immersive_fission.hazmat_suit_armor_boots": "HazmatSuit Boots"
 }
