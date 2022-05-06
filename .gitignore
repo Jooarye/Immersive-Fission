@@ -40,3 +40,5 @@ hs_err_pid*
 #=====================
 run/saves/*
 run/resourcepacks/*
+run/logs/*
+run/options.tx
