@@ -1,0 +1,189 @@
+{
+  "mod_elements": [
+    {
+      "name": "ImmersiveFissionTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "immersive_fission_tab"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore"
+    },
+    {
+      "name": "ThoriumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore"
+    },
+    {
+      "name": "RadiationParticle",
+      "type": "particle",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radiation_particle"
+    },
+    {
+      "name": "UraniumTag",
+      "type": "tag",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_tag"
+    },
+    {
+      "name": "ThoriumTag",
+      "type": "tag",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_tag"
+    },
+    {
+      "name": "UraniumIngot",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot"
+    },
+    {
+      "name": "ThoriumIngot",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot"
+    },
+    {
+      "name": "UraniumIngotTag",
+      "type": "tag",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ingot_tag"
+    },
+    {
+      "name": "ThoriumIngotTag",
+      "type": "tag",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ingot_tag"
+    },
+    {
+      "name": "HazmatSuitArmor",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HazmatSuitArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_helmet_recipe"
+    },
+    {
+      "name": "HazmatSuitArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_body_recipe"
+    },
+    {
+      "name": "HazmatSuitArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_leggings_recipe"
+    },
+    {
+      "name": "HazmatSuitArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_boots_recipe"
+    },
+    {
+      "name": "NuclearAge",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_age"
+    },
+    {
+      "name": "GrantNuclearAgeAdvancement",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_nuclear_age_advancement",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.immersive_fission.hazmat_suit_armor_leggings": "HazmatSuit Leggings",
+      "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
+      "item.immersive_fission.uranium_ingot": "Uranium Ingot",
+      "advancements.nuclear_age.descr": "Get your hands on some radioactive materials",
+      "advancements.nuclear_age.title": "Nuclear Age",
+      "block.immersive_fission.uranium_ore": "Uranium Ore",
+      "item.immersive_fission.thorium_ingot": "Thorium Ingot",
+      "item.immersive_fission.hazmat_suit_armor_helmet": "HazmatSuit Helmet",
+      "item.immersive_fission.hazmat_suit_armor_chestplate": "HazmatSuit Chestplate",
+      "block.immersive_fission.thorium_ore": "Thorium Ore",
+      "item.immersive_fission.hazmat_suit_armor_boots": "HazmatSuit Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "immersive_fission",
+    "modName": "Immersive Fission",
+    "version": "1.0.0",
+    "author": "jojo, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.immersive_fission",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
