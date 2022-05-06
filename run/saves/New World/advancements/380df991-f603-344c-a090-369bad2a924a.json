@@ -13,6 +13,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:desert_hills": "2022-05-06 20:23:37 +0200",
       "minecraft:desert": "2022-05-06 20:09:29 +0200",
       "minecraft:beach": "2022-05-06 20:09:09 +0200",
       "minecraft:plains": "2022-05-06 20:09:13 +0200"
