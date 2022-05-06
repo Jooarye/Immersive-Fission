@@ -1,0 +1,23 @@
+{
+  "minecraft:recipes/misc/coal_from_blasting": {
+    "criteria": {
+      "has_coal_ore": "2022-05-06 20:09:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting": {
+    "criteria": {
+      "has_coal_ore": "2022-05-06 20:09:38 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:desert": "2022-05-06 20:09:29 +0200",
+      "minecraft:beach": "2022-05-06 20:09:09 +0200",
+      "minecraft:plains": "2022-05-06 20:09:13 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
