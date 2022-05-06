@@ -1,5 +1,7 @@
 {
+  "advancements.nucliar_age.title": "Nucliar Age",
   "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
+  "advancements.nucliar_age.descr": "Get your hands on some radioactive materiales",
   "block.immersive_fission.uranium_ore": "Uranium Ore",
   "block.immersive_fission.thorium_ore": "Thorium Ore"
 }

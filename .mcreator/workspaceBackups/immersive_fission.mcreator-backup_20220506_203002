@@ -31,23 +31,13 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "radiation_particle"
-    },
-    {
-      "name": "NucliarAge",
-      "type": "achievement",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "nucliar_age"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "advancements.nucliar_age.title": "Nucliar Age",
       "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
-      "advancements.nucliar_age.descr": "Get your hands on some radioactive materiales",
       "block.immersive_fission.uranium_ore": "Uranium Ore",
       "block.immersive_fission.thorium_ore": "Thorium Ore"
     }
