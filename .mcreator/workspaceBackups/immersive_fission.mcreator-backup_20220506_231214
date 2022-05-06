@@ -125,16 +125,51 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "hazmat_suit_armor_boots_recipe"
+    },
+    {
+      "name": "NuclearAge",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_age"
+    },
+    {
+      "name": "GrantNuclearAgeAdvancement",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_nuclear_age_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.immersive_fission.hazmat_suit_armor_leggings": "HazmatSuit Leggings",
       "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
-      "item.immersive_fission.uranium_ingot": "Uranium Ingot",
       "block.immersive_fission.uranium_ore": "Uranium Ore",
+      "item.immersive_fission.hazmat_suit_armor_leggings": "HazmatSuit Leggings",
+      "item.immersive_fission.uranium_ingot": "Uranium Ingot",
+      "advancements.nuclear_age.descr": "Get your hands on some radioactive materials",
+      "advancements.nuclear_age.title": "Nuclear Age",
+      "block.immersive_fission.lead_ore": "Lead Ore",
       "item.immersive_fission.thorium_ingot": "Thorium Ingot",
       "item.immersive_fission.hazmat_suit_armor_helmet": "HazmatSuit Helmet",
       "item.immersive_fission.hazmat_suit_armor_chestplate": "HazmatSuit Chestplate",

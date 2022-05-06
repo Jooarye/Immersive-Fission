@@ -149,18 +149,68 @@
           }
         ]
       }
+    },
+    {
+      "name": "LeadOre",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ore"
+    },
+    {
+      "name": "LeadIngot",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot"
+    },
+    {
+      "name": "LeadIngotTag",
+      "type": "tag",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot_tag"
+    },
+    {
+      "name": "LeadIngotRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lead_ingot_recipe"
+    },
+    {
+      "name": "UraniumOreSmeltingRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore_smelting_recipe"
+    },
+    {
+      "name": "ThoriumOreSmeltingRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore_smelting_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.immersive_fission.hazmat_suit_armor_leggings": "HazmatSuit Leggings",
       "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
+      "block.immersive_fission.uranium_ore": "Uranium Ore",
+      "item.immersive_fission.hazmat_suit_armor_leggings": "HazmatSuit Leggings",
       "item.immersive_fission.uranium_ingot": "Uranium Ingot",
       "advancements.nuclear_age.descr": "Get your hands on some radioactive materials",
+      "item.immersive_fission.lead_ingot": "Lead Ingot",
       "advancements.nuclear_age.title": "Nuclear Age",
-      "block.immersive_fission.uranium_ore": "Uranium Ore",
+      "block.immersive_fission.lead_ore": "Lead Ore",
       "item.immersive_fission.thorium_ingot": "Thorium Ingot",
       "item.immersive_fission.hazmat_suit_armor_helmet": "HazmatSuit Helmet",
       "item.immersive_fission.hazmat_suit_armor_chestplate": "HazmatSuit Chestplate",

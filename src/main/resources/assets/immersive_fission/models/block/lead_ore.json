@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "immersive_fission:blocks/lead_ore",
+    "particle": "immersive_fission:blocks/lead_ore"
+  }
+}

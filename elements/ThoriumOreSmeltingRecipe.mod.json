@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:ThoriumOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:ThoriumIngot"
+    },
+    "name": "thorium_ore_smelting_recipe",
+    "namespace": "mod"
+  }
+}

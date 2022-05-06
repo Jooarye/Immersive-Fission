@@ -79,17 +79,93 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "thorium_ingot_tag"
+    },
+    {
+      "name": "HazmatSuitArmor",
+      "type": "armor",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "HazmatSuitArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_helmet_recipe"
+    },
+    {
+      "name": "HazmatSuitArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_body_recipe"
+    },
+    {
+      "name": "HazmatSuitArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_leggings_recipe"
+    },
+    {
+      "name": "HazmatSuitArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hazmat_suit_armor_boots_recipe"
+    },
+    {
+      "name": "NuclearAge",
+      "type": "achievement",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_age"
+    },
+    {
+      "name": "GrantNuclearAgeAdvancement",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grant_nuclear_age_advancement",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.immersive_fission.hazmat_suit_armor_leggings": "HazmatSuit Leggings",
       "itemGroup.tabimmersive_fission_tab": "Immersive Fission",
       "item.immersive_fission.uranium_ingot": "Uranium Ingot",
+      "advancements.nuclear_age.descr": "Get your hands on some radioactive materials",
+      "advancements.nuclear_age.title": "Nuclear Age",
       "block.immersive_fission.uranium_ore": "Uranium Ore",
       "item.immersive_fission.thorium_ingot": "Thorium Ingot",
-      "block.immersive_fission.thorium_ore": "Thorium Ore"
+      "item.immersive_fission.hazmat_suit_armor_helmet": "HazmatSuit Helmet",
+      "item.immersive_fission.hazmat_suit_armor_chestplate": "HazmatSuit Chestplate",
+      "block.immersive_fission.thorium_ore": "Thorium Ore",
+      "item.immersive_fission.hazmat_suit_armor_boots": "HazmatSuit Boots"
     }
   },
   "foldersRoot": {
